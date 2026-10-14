@@ -1,0 +1,7 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Actor name="CompanionsForeverActorTemplate" virtual="true">
+    <Scripts><OnModelLoaded>
+      if self.cfArena then self.cfArena:ModelLoaded(self) end
+    </OnModelLoaded></Scripts>
+  </Actor>
+</Ui>

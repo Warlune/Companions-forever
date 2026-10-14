@@ -1,0 +1,21 @@
+# This public checkout is source-only. Add approved runtime files explicitly.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/CompanionsForever/
+!/docs/
+/CompanionsForever/*
+!/CompanionsForever/*.lua
+!/CompanionsForever/*.xml
+!/CompanionsForever/*.toc
+!/CompanionsForever/README.md
+!/CompanionsForever/PET_GUIDE.md
+!/CompanionsForever/RELEASE_NOTES.md
+/CompanionsForever/Debug.lua
+/CompanionsForever/DevGifts.lua
+/CompanionsForever/Gifts.lua
+/CompanionsForever/HousingMinimap.lua
+/CompanionsForever/HousingBuildingLab.lua
+/CompanionsForever/SceneryLab.lua
+/CompanionsForever/IslandAssetAudit.lua
